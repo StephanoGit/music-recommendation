@@ -16,7 +16,7 @@ export default class LoginPage extends Component {
         fetch('/spotify/is-authenticated')
             .then((response) => response.json())
             .then((data) => {
-                console.log(data)
+                this.setState({spotifyAuthenticated: data.status});
                 if (!data.status){
                     fetch('/spotify/get-auth-url')
                         .then((response) => response.json())

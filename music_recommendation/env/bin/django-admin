@@ -1,4 +1,4 @@
-#!/Users/stephano./GitRepos/music-recommendation/music_recommendation/env/bin/python
+#!/Users/stephano./GitRepos/music-recommendation/music_recommendation/env/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

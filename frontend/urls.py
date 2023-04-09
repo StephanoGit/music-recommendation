@@ -7,4 +7,5 @@ urlpatterns = [
     path("", index, name=""),
     path("login", index),
     path("profile", index),
+    path("player", index),
 ]
