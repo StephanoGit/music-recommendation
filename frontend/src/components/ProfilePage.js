@@ -6,6 +6,6 @@ export default class ProfilePage extends Component {
     }
 
     render() {
-        return (<h1>Profile Page</h1>);
+        return (<h1>Profile Pages</h1>);
     }
 }
